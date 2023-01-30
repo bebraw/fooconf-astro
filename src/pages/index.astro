@@ -6,7 +6,8 @@ import Counter from '../components/Counter.jsx'
 <Layout title="Welcome to fooconf demo.">
 	<main>
 		<h1>Welcome to <span class="text-gradient">fooconf demo</span></h1>
-		<Counter />
+		<Counter target="foo" client:visible />
+		<Counter target="bar" client:visible />
 	</main>
 </Layout>
 
